@@ -3,6 +3,6 @@ float32 battery
 # status of an error being present on each RoboClaw. Stringified hex
 string[5] error_status
 # Temperature of the motor controllers expressed in Celsius
-float32[5] temp
+float32[3] temp
 # Sensed current from the motor controllers in Ampere
-float32[10] current
+float32[6] current
